@@ -10,16 +10,31 @@
 using namespace std;
 
 class Persona {
-    string nome;
+
 private:
+    string nome;
     string cognome;
-    int eta, annoNascita;
+    int eta, annoNascita, dim;
+    int* dati;
 public:
     Persona();
     Persona(string n, string c, int e=0);
+    Persona(int _dim);
+    Persona(const Persona &p);
+
+    string getNome() const;
+    string getCognome() const;
+
     int getEta()const;
     void setEta(int e);
+
+    int getAnnoNascita() const;
+    void setAnnoNascita(int annoNascita);
+
+    bool uguale(const Persona p) const;
+
     void stampa()const;
+
     ~Persona();
 };
 
