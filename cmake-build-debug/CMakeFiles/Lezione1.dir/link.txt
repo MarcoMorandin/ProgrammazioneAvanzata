@@ -1,1 +1,0 @@
-/usr/bin/c++  -g   CMakeFiles/Lezione1.dir/main.cpp.o CMakeFiles/Lezione1.dir/Persona.cpp.o  -o Lezione1 
