@@ -1,1 +1,1 @@
-/usr/bin/c++  -g   CMakeFiles/Lezione1.dir/main.cpp.o CMakeFiles/Lezione1.dir/Persona.cpp.o  -o Lezione1 
+/Library/Developer/CommandLineTools/usr/bin/c++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/Lezione1.dir/main.cpp.o CMakeFiles/Lezione1.dir/Persona.cpp.o -o Lezione1 
